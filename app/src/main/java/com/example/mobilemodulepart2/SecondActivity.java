@@ -16,6 +16,7 @@ public class SecondActivity extends AppCompatActivity {
             TextView tv = (TextView) findViewById(R.id.textView);
             String text = getIntent().getExtras().getString("org.mentorschool.quicklauncher.SOMETHING");
             tv.setText(text);
+
         }
     }
 }
